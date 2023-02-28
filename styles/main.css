@@ -651,8 +651,8 @@ body{
     justify-content: left;
 }
 .footer .circle{
-    width: 2.9rem;
-    height: 2.9rem;
+    width: 2.6rem;
+    height: 2.6rem;
     background-color: #0020FF;
     border-radius: 50%;
     margin: 0 1rem;
@@ -662,10 +662,10 @@ body{
     justify-content: center;
 }
 .footer .circle img{
-    width: 2rem;
+    width: 1.7rem;
 }
 .footer .circle img.linkedin{
-    width: 1.6rem;
+    width: 1.5rem;
 }
 .footer .items .item{
     display: flex;
@@ -685,6 +685,12 @@ body{
 .footer .lien a{
     text-decoration: none;
     color: #001b50;
+}
+.footer .lien a:hover{
+    color: red;
+}
+.footer .lien a img{
+    width: .8rem;
 }
 .footer .content{
     padding: 0 8rem;
